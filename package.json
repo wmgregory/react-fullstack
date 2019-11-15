@@ -1,16 +1,16 @@
 {
-  "name": "react-app",
+  "name": "react-fullstack",
   "version": "1.0.0",
-  "main": "index.js",
+  "author": "wmgregory",
+  "description": "React fullstack playground",
   "license": "MIT",
+  "keywords": [],
+  "main": "index.js",
   "scripts": {
     "start": "webpack-dev-server --mode development --open --hot",
     "build": "webpack --mode production",
     "test": "jest"
   },
-  "keywords": [],
-  "author": "will <william.gregory@acadiasoft.com>",
-  "description": "",
   "devDependencies": {
     "@types/enzyme": "3.10.3",
     "@types/enzyme-adapter-react-16": "1.0.5",
