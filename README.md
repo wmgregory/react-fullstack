@@ -19,7 +19,8 @@ $ yarn
 To run the client (TODO: serverless server)
 
 ```
-$ yarn start
+$ yarn start      # client
+$ yarn server     # server
 ```
 
 ## Deployment
