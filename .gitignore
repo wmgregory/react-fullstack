@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+reports/
+coverage/
+cypress/results/
+
+
+.DS_Store
+jest.json
