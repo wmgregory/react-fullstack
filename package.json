@@ -11,7 +11,9 @@
     "server": "ts-node-dev --respawn --transpileOnly ./server/index.ts",
     "build": "webpack --mode production",
     "tsc": "tsc",
-    "test": "jest"
+    "test": "jest",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@types/enzyme": "3.10.3",
@@ -41,6 +43,8 @@
     "express": "4.17.1",
     "react": "16.12.0",
     "react-dom": "16.12.0",
-    "webpack-dev-server": "3.9.0"
-  }
+    "webpack-dev-server": "3.9.0",
+    "snyk": "^1.316.1"
+  },
+  "snyk": true
 }
